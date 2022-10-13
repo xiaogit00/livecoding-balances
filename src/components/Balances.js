@@ -9,7 +9,7 @@ const Balances = ({address, chainId}) => {
   const [isLoading, setIsLoading] = useState(true)
 
   return (
-      <Table columns={columns} dataSource={data} rowKey='contract_address' style={{width:"70%", margin:"20em"}}/>
+      <Table columns={columns} dataSource={dummyData} rowKey='contract_address' style={{width:"70%", margin:"20em"}}/>
   )
 }
 
